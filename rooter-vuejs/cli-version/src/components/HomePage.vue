@@ -1,5 +1,11 @@
+<script>
+    export default ({
+        name: 'HomePage'
+    })
+</script>
+
 <template>
-    <div class="app" id="app">
+    <div class="app">
 			<h1>La belle vue</h1>
 			<p class="description">
 				Bienvenue dans notre café la belle vue ! Nous sommes réputés pour notre
@@ -12,9 +18,3 @@
 			</footer>
 		</div>
 </template>
-
-<script>
-    export default ({
-        name: 'HomePage'
-    })
-</script>

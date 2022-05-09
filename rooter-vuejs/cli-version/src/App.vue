@@ -1,16 +1,19 @@
 <template>
   <div>
     <HomePage />
+    <MenuItem />
   </div>
 </template>
 
 <script>
 import HomePage from './components/HomePage.vue';
+import MenuItem from './components/MenuItem.vue';
 
 export default {
   name: 'App',
   components: {
-    HomePage
+    HomePage,
+    MenuItem
   }
 }
 </script>
